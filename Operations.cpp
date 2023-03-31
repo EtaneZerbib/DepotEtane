@@ -36,5 +36,14 @@ int Division(int a, int b)
 	return resultat;
 }	
 
+int exposant(int nb, int exp)
+{
+	int resultat
+	
+	resultat = pow(nb,exp);
+	
+	return resultat
+}	
+
 
 return 0
