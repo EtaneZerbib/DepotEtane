@@ -45,5 +45,17 @@ int exposant(int nb, int exp)
 	return resultat
 }	
 
+int factoriel (int nb)
+{
+	int resultat = 1;
+	
+    while (nb > 1)
+		
+        resultat *= nb--;
+	
+    return resultat;
+	
+}
+
 
 return 0
